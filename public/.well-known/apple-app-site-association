@@ -5,6 +5,10 @@
         "appIDs": [ "1620628623.tech.indicio.holdr" ],
         "components": [
           {
+            "/": "/invite",
+            "comment": "Matches any URL with a path that starts with /invite."
+          },
+          {
             "/": "/invites/*",
             "?": { "oob": "*" },
             "comment": "Matches any URL with a path that starts with /invites/ and that has a query item with name 'oob' and a value of any length."
